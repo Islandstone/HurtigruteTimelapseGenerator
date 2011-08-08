@@ -1,0 +1,1 @@
+ffmpeg.exe -s 1920x1080 -r 25 -y -i "gather/frame-%%05d.png" -threads 0 -vcodec huffyuv "output/Hurtigruten_timelapse_lossless.avi"
